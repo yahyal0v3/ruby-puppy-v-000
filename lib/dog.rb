@@ -18,6 +18,6 @@ class Dog
     @@all.delete_if do |dog|
       dog == dog
     end
-  end 
-  
+  end
+
 end
