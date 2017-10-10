@@ -15,7 +15,9 @@ class Dog
   end
 
   def self.clear_all
-    
+    @@all.delete_if do |dog|
+      dog == dog
+    end
   end 
   
 end
